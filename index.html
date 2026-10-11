@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#11131c;color:#e1e1ef;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"background":"#11131c","inverse-surface":"#e1e1ef","on-surface-variant":"#cac4d4","on-secondary":"#00315d","on-primary-container":"#3c1989","secondary":"#a4c9ff","on-tertiary-fixed-variant":"#004f57","on-surface":"#e1e1ef","outline":"#948e9d","on-secondary-fixed-variant":"#004883","surface":"#11131c","tertiary":"#54d8e8","tertiary-container":"#00adbd","on-tertiary":"#00363c","on-tertiary-container":"#003b41","surface-container-lowest":"#0c0e17","surface-container-highest":"#32343f","primary-fixed":"#e8ddff","surface-container":"#1d1f29","tertiary-fixed":"#91f1ff","on-secondary-fixed":"#001c39","surface-dim":"#11131c","surface-tint":"#cebdff","surface-container-high":"#282933","inverse-primary":"#674bb5","primary-container":"#a78bfa","secondary-fixed":"#d4e3ff","on-primary-fixed-variant":"#4f319c","tertiary-fixed-dim":"#54d8e8","error-container":"#93000a","surface-variant":"#32343f","on-primary-fixed":"#21005e","primary-fixed-dim":"#cebdff","primary":"#cebdff","on-primary":"#381385","on-tertiary-fixed":"#001f23","on-secondary-container":"#d6e5ff","secondary-container":"#0267b8","outline-variant":"#494552","secondary-fixed-dim":"#a4c9ff","on-error":"#690005","surface-container-low":"#191b25","surface-bright":"#373943","error":"#ffb4ab","inverse-on-surface":"#2e303a","on-error-container":"#ffdad6","on-background":"#e1e1ef"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-mobile":"1rem","gutter-lg":"2rem","space-xl":"2.5rem","margin":"2rem","margin-desktop":"3rem","space-2xl":"4rem","gutter-sm":"1rem","gutter":"1.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem"},fontFamily:{"headline-lg-mobile":["Space Grotesk"],"label-mono":["Inter"],"headline-sm":["Space Grotesk"],"label-md":["Inter"],"display-hero-mobile":["Space Grotesk"],"label-lg":["Inter"],"display-hero":["Space Grotesk"],"headline-lg":["Space Grotesk"],"headline-md":["Space Grotesk"],"body-md":["DM Sans"],"body-lg":["DM Sans"],"body-sm":["DM Sans"]},fontSize:{"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-mono":["11px",{lineHeight:"14px",letterSpacing:"0.06em",fontWeight:"500"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"500"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"500"}],"display-hero-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"700"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"700"}],"headline-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-md":["28px",{lineHeight:"36px",letterSpacing:"-0.015em",fontWeight:"600"}],"body-md":["15px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.005em",fontWeight:"400"}],"body-sm":["13px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl pt-safe shadow-[0_1px_16px_rgba(167,139,250,0.06)]"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="IdeaForge AI Brand Emblem" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqUhRYMw0oAzsQ-jf5AQ90VSsbVX4YONVWULSZtRgE7MH4MBX4YBzKNDq0hAHkkvAx1GDvxMjXSyA1RGywr1MrfJUJ3m7kxJF6Z-wATU-Ba9QpS10KR86I8Z72IAms4FB5AIT2MJnxbRXzqrxFFlkrYI1fe5MQZ3MXyYP7DgohHCbeEzXl6klcnlhyDM9zd2mYBVQOgvnYvc1JXI809u2cwXGUqmTXuvITk7lgrBye1lMnZDmS-KoZ"/><span class="font-headline-sm text-headline-sm text-on-surface truncate tracking-tight">IdeaForge AI</span></div><div class="flex items-center gap-space-sm flex-shrink-0"><span class="font-label-mono text-label-mono text-primary bg-surface-container px-space-xs py-0.5 rounded text-center hidden sm:inline-block uppercase tracking-wider">SYNTHESIS</span><div class="w-8 h-8 rounded-full ring-1 ring-primary/30 p-0.5 flex items-center justify-center"><img alt="Profile" class="w-full h-full rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdfJOXou6IpBsopS__m4MYSkqkeqKsPJ7BuptFHZ6sMLDRZPN_27BOYmTjgLS0OowY8zR2A8LRlMu6qCk77fAEayAZjZ12imnzcj0uEy6qD88BS8gtFX9v7cK5B4xvVzEG8cyjG33uO3tPSq01uBlOvb-swty6QWtrZlmz5AhFKu-L1A9n3Bdnfm82nDZ-zqNraRi1A8raXf3Am-wG_tgul_T_MWGLm7XuG8I9MzIr6jofUtW97IUZ"/></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface"><div class="flex flex-col w-full text-on-surface">
+<!-- Ambient Bioluminescent Mesh Lighting Layers -->
+<div class="relative w-full overflow-hidden">
+<!-- Atmospheric diffuse halos -->
+<div class="pointer-events-none absolute -top-24 left-1/2 -translate-x-1/2 w-[340px] h-[340px] bg-primary-container/15 rounded-full blur-[110px]"></div>
+<div class="pointer-events-none absolute top-96 -right-20 w-[260px] h-[260px] bg-tertiary-container/10 rounded-full blur-[90px]"></div>
+<div class="pointer-events-none absolute top-[1100px] -left-24 w-[280px] h-[280px] bg-secondary-container/15 rounded-full blur-[100px]"></div>
+<!-- 1. HERO SECTION -->
+<section class="flex flex-col items-center px-margin-mobile pt-4 pb-10 text-center relative z-10">
+<!-- Announcement Pill -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high/70 backdrop-blur-md shadow-sm mb-5">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-mono text-label-mono text-primary uppercase tracking-widest">✦ YOUR IDEAS, AMPLIFIED BY AI</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-hero-mobile text-display-hero-mobile text-on-surface tracking-tight max-w-sm mb-4">
+        Every great project starts with a 
+        <span class="bg-gradient-to-r from-primary-fixed-dim via-secondary to-tertiary bg-clip-text text-transparent">little spark.</span>
+</h1>
+<!-- Supporting Copy -->
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs mb-6">
+        Turn your wildest ideas into clear project blueprints, smart roadmaps, and actionable next steps. Your next big thing starts here.
+      </p>
+<!-- Dual Call To Action -->
+<div class="flex flex-col sm:flex-row gap-3 w-full max-w-xs mb-5">
+<button class="group relative w-full h-12 rounded-xl font-label-lg text-label-lg font-semibold bg-gradient-to-r from-primary-container via-secondary-container to-tertiary-container text-inverse-surface shadow-[0_0_24px_rgba(167,139,250,0.35)] transition-all active:scale-[0.98] flex items-center justify-center gap-2" type="button">
+<span>Forge your first idea</span>
+<span class="material-symbols-outlined text-lg transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+<button class="w-full h-12 rounded-xl font-label-lg text-label-lg bg-surface-container-high/75 hover:bg-surface-container-highest text-on-surface transition-all flex items-center justify-center gap-1.5 shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg text-secondary">play_circle</span>
+<span>Explore experience</span>
+</button>
+</div>
+<!-- Trust Statement -->
+<p class="font-label-md text-label-md text-outline mb-8">
+        Built for dreamers, developers, and doers.
+      </p>
+<!-- Hero 3D Artwork with Micro-Badges -->
+<div class="relative w-full max-w-md mx-auto aspect-square rounded-2xl bg-surface-container-lowest/80 p-2 shadow-2xl overflow-visible">
+<!-- Living orbital sphere visual -->
+<div class="relative w-full h-full rounded-xl overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Cosmic holographic energy orb pulsing with crystalline violet core, cyan orbital rings, ambient starlight and radiant technical telemetry graphs on dark obsidian background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNyNOh1Hfk0oWJrrWUEEdO9J_tpwrxL8BCBPF-g5_ec6_BJ2O5dfkfbttkiX9IF8rodLyUsNZhV1XehMnKMcy1W_uALAXixn4r6x4Hb3OxN7MOu3c8qD6j6L0-NaSlkJ593OHIpYAdbjkdLrhd96UuAKpXq4Gf0neZTDg3Dmt-EpAQRL34ZUgOilsc3nxjiuvn7jIpiB6AsNz9KPmPl1yjbCfCProBZ58iadM3yZCiC4yCydfpgSQb"/>
+<!-- Translucent glass reflection sheen -->
+<div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-surface-container-lowest/90 via-transparent to-surface-container-lowest/20"></div>
+</div>
+<!-- Floating Badge: Actionable Tasks (Top-Left) -->
+<div class="absolute -top-3 left-2 px-3 py-1.5 rounded-lg bg-surface-container-high/90 backdrop-blur-md shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<div class="text-left">
+<p class="font-label-mono text-[10px] text-primary leading-none uppercase">Ready Stack</p>
+<p class="font-label-md text-label-md text-on-surface font-semibold">12 actionable tasks</p>
+</div>
+</div>
+<!-- Floating Badge: Milestones (Bottom-Right) -->
+<div class="absolute -bottom-3 right-2 px-3 py-1.5 rounded-lg bg-surface-container-high/90 backdrop-blur-md shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-base">flag</span>
+<div class="text-left">
+<p class="font-label-mono text-[10px] text-tertiary leading-none uppercase">Execution Path</p>
+<p class="font-label-md text-label-md text-on-surface font-semibold">4 project milestones</p>
+</div>
+</div>
+<!-- Floating Badge: Roadmap Status (Bottom-Left) -->
+<div class="absolute bottom-6 left-3 px-2.5 py-1 rounded-md bg-surface-container/95 backdrop-blur-sm shadow-md flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+<span class="font-label-mono text-[10px] text-on-surface tracking-wider">MVP roadmap generated</span>
+</div>
+</div>
+</section>
+<!-- 2. VISUAL TRUST STRIP -->
+<section class="px-margin-mobile py-8 bg-surface-container-lowest/60">
+<div class="flex items-center justify-between mb-4">
+<h2 class="font-label-mono text-label-mono uppercase tracking-widest text-primary">ONE IDEA. A CLEARER WAY FORWARD.</h2>
+<span class="font-label-mono text-[10px] text-outline">v2.4 SYNTHESIS</span>
+</div>
+<div class="grid grid-cols-2 gap-2.5">
+<!-- Card 1 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-2">
+<div class="w-8 h-8 rounded-lg bg-primary-container/20 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-lg">psychology</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-sm text-on-surface font-semibold mb-0.5">Understand your vision</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Translates raw intuition into concrete requirements.</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-2">
+<div class="w-8 h-8 rounded-lg bg-secondary-container/30 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-lg">architecture</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-sm text-on-surface font-semibold mb-0.5">Plan with intelligence</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Calibrated milestones built to eliminate blockers.</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-2">
+<div class="w-8 h-8 rounded-lg bg-tertiary-container/30 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-lg">code_blocks</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-sm text-on-surface font-semibold mb-0.5">Build with confidence</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tailored tech choices, API mappings, and data schema.</p>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-2">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest text-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-lg">insights</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-sm text-on-surface font-semibold mb-0.5">Track real progress</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Interactive sprints and live development telemetry.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. HOW IT WORKS -->
+<section class="px-margin-mobile py-10">
+<div class="mb-6">
+<span class="font-label-mono text-label-mono text-tertiary uppercase tracking-wider block mb-1">EXECUTION PIPELINE</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">
+          From "what if?" to "what's next?"
+        </h2>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Step 01 -->
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex gap-3.5 items-start">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-primary font-headline-sm text-headline-sm flex items-center justify-center flex-shrink-0">
+            01
+          </div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between mb-1">
+<h3 class="font-headline-sm text-base text-on-surface font-semibold">Capture the spark</h3>
+<span class="font-label-mono text-[10px] text-primary bg-primary/10 px-2 py-0.5 rounded">INITIATE</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Describe your idea in your own natural phrasing. Bullet points, loose thoughts, or half-baked concepts—nothing is too messy.
+            </p>
+</div>
+</div>
+<!-- Step 02 -->
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex gap-3.5 items-start">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-secondary font-headline-sm text-headline-sm flex items-center justify-center flex-shrink-0">
+            02
+          </div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between mb-1">
+<h3 class="font-headline-sm text-base text-on-surface font-semibold">Let intelligence shape it</h3>
+<span class="font-label-mono text-[10px] text-secondary bg-secondary/10 px-2 py-0.5 rounded">SYNTHESIS</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              The AI parses the logic, categorizes architecture, selects ideal technology stacks, and organizes delivery stages.
+            </p>
+</div>
+</div>
+<!-- Step 03 -->
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex gap-3.5 items-start">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-tertiary font-headline-sm text-headline-sm flex items-center justify-center flex-shrink-0">
+            03
+          </div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between mb-1">
+<h3 class="font-headline-sm text-base text-on-surface font-semibold">Build something real</h3>
+<span class="font-label-mono text-[10px] text-tertiary bg-tertiary/10 px-2 py-0.5 rounded">EXECUTE</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Walk away with a prioritized backlog, clear step-by-step code guidance, and a living tracker ready to guide day one.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. FEATURE SHOWCASE (BENTO GRID) -->
+<section class="px-margin-mobile py-8 bg-surface-container-lowest/80">
+<div class="mb-5">
+<span class="font-label-mono text-label-mono text-primary uppercase tracking-wider block mb-1">SYSTEM CAPABILITIES</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Engineered for momentum</h2>
+</div>
+<div class="flex flex-col gap-3.5">
+<!-- Bento 1: AI Blueprint Generator Card -->
+<div class="p-4 rounded-2xl bg-surface-container-low shadow-md flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">auto_stories</span>
+<h3 class="font-headline-sm text-base text-on-surface font-semibold">AI Blueprint Generator</h3>
+</div>
+<span class="font-label-mono text-[10px] text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">REAL-TIME</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Converts vague concepts into exhaustive specifications, system flowcharts, and risk mitigation strategies.
+          </p>
+<!-- Blueprint visual preview -->
+<div class="p-3 rounded-xl bg-surface-container-lowest font-label-mono text-[11px] text-secondary space-y-1.5 overflow-hidden">
+<div class="flex justify-between text-outline">
+<span>// ARCHITECTURE BLUEPRINT</span>
+<span class="text-tertiary">CONFIDENCE: 98.4%</span>
+</div>
+<p class="text-on-surface">&gt; Target: Modular Offline-First Micro-SaaS</p>
+<p class="text-on-surface-variant">&gt; Cache Engine: IndexedDB + Web Workers</p>
+<p class="text-secondary">&gt; AI Agent: Quantized Edge Llama 3 / LangChain</p>
+</div>
+</div>
+<!-- Bento 2: Smart Task Breakdown with Interactive Checkboxes -->
+<div class="p-4 rounded-2xl bg-surface-container-low shadow-md flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-xl">checklist</span>
+<h3 class="font-headline-sm text-base text-on-surface font-semibold">Smart Task Breakdown</h3>
+</div>
+<span class="font-label-mono text-[11px] text-tertiary bg-tertiary/10 px-2 py-0.5 rounded" id="taskCounter">2 of 3 Done</span>
+</div>
+<!-- Micro Interactive Checklist -->
+<div class="flex flex-col gap-2 pt-1" id="interactiveTodoList">
+<label class="flex items-center gap-3 p-2.5 rounded-lg bg-surface-container-lowest cursor-pointer transition-all active:scale-[0.99]">
+<input checked="" class="w-4 h-4 rounded accent-primary bg-surface-container-high cursor-pointer" type="checkbox"/>
+<div class="flex-1 min-w-0">
+<span class="font-label-md text-label-md text-on-surface line-through opacity-70">Scaffold UI schema &amp; design tokens</span>
+</div>
+<span class="font-label-mono text-[10px] text-outline">2h</span>
+</label>
+<label class="flex items-center gap-3 p-2.5 rounded-lg bg-surface-container-lowest cursor-pointer transition-all active:scale-[0.99]">
+<input checked="" class="w-4 h-4 rounded accent-primary bg-surface-container-high cursor-pointer" type="checkbox"/>
+<div class="flex-1 min-w-0">
+<span class="font-label-md text-label-md text-on-surface line-through opacity-70">Configure local embeddings pipeline</span>
+</div>
+<span class="font-label-mono text-[10px] text-outline">3h</span>
+</label>
+<label class="flex items-center gap-3 p-2.5 rounded-lg bg-surface-container-lowest cursor-pointer transition-all active:scale-[0.99]">
+<input class="w-4 h-4 rounded accent-primary bg-surface-container-high cursor-pointer" type="checkbox"/>
+<div class="flex-1 min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-medium">Connect telemetry &amp; milestone evaluator</span>
+</div>
+<span class="font-label-mono text-[10px] text-primary">In Progress</span>
+</label>
+</div>
+</div>
+<!-- Bento 3: Tech Recommendations & Roadmap Strip -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+<!-- Stack Recommendation -->
+<div class="p-4 rounded-2xl bg-surface-container-low shadow-md flex flex-col justify-between gap-3">
+<div>
+<div class="flex items-center gap-2 mb-1.5">
+<span class="material-symbols-outlined text-secondary text-xl">hub</span>
+<h3 class="font-headline-sm text-sm text-on-surface font-semibold">Tech Selection</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Recommended based on speed &amp; maintenance cost.</p>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high font-label-mono text-label-mono text-secondary">React 19</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high font-label-mono text-label-mono text-primary">Node.js</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high font-label-mono text-label-mono text-tertiary">MongoDB</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-high font-label-mono text-label-mono text-on-surface">Gemini API</span>
+</div>
+</div>
+<!-- Intelligent Roadmap Timeline -->
+<div class="p-4 rounded-2xl bg-surface-container-low shadow-md flex flex-col justify-between gap-3">
+<div>
+<div class="flex items-center gap-2 mb-1.5">
+<span class="material-symbols-outlined text-primary text-xl">timeline</span>
+<h3 class="font-headline-sm text-sm text-on-surface font-semibold">Adaptive Timeline</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Dynamic sprint planning with self-healing estimates.</p>
+</div>
+<!-- Progress Bar SVG -->
+<div class="space-y-1">
+<div class="flex justify-between font-label-mono text-[10px] text-on-surface-variant">
+<span>Phase 01: Prototype</span>
+<span class="text-tertiary font-semibold">74% Complete</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full bg-gradient-to-r from-primary to-tertiary rounded-full w-3/4"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. CINEMATIC IMAGE BREAK -->
+<section class="relative w-full my-6 overflow-hidden">
+<div class="relative w-full aspect-[4/3] max-h-[380px] bg-surface-container-lowest">
+<!-- Midnight Aurora Cosmic City Visual -->
+<img class="w-full h-full object-cover" data-alt="Futuristic luminous sustainable metropolis with organic spiral towers under brilliant violet and golden emerald aurora borealis skies reflected over dark alpine waters" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9F7vFgi4yW8RPdHAnY0tOUcglB2fTh29n8vSz4JJIPjHyHOZGPeKFTUkFgnSbXuUCkScqpU-lJeUxmcTrFWyjTMu9VPUt92vqTcuLGRESwLQ7yFpcX-wmaa3kFzbiiVSqYCjcuOFEa6aUoS5Mt5yBjSrjVkiyt9dRV4anklZUNI1nW5k__Ozs_k8d9Ar_QYKdQysD2T8hVVK5yAzfyYi7sYEhJYXFaiBtE22tzmO3U707hqUxA0T2"/>
+<!-- Midnight Aurora Deep Gradient Overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-background via-surface-container-lowest/80 to-surface-container-lowest/30 flex flex-col justify-end p-margin-mobile pb-6">
+<div class="max-w-sm">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md font-label-mono text-[10px] text-tertiary uppercase tracking-wider mb-2">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+              ORBITAL HORIZON
+            </span>
+<p class="font-headline-sm text-headline-sm text-on-surface font-semibold leading-snug mb-4">
+              "Your imagination is the starting point. Everything else is a plan."
+            </p>
+<button class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-label-lg text-label-lg font-semibold bg-gradient-to-r from-primary-container to-secondary-container text-inverse-surface shadow-lg transition-transform active:scale-95" type="button">
+<span>Bring an idea to life</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. THE IDEA LAB (INTERACTIVE DEMO SECTION) -->
+<section class="px-margin-mobile py-8" id="idea-lab">
+<div class="mb-4">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-xl">science</span>
+<span class="font-label-mono text-label-mono text-primary uppercase tracking-wider">THE IDEA LAB</span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">
+          Got an idea? Let's give it a shape.
+        </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Type a concept or tap a prompt chip below to preview real-time AI blueprint structuring.
+        </p>
+</div>
+<!-- Quick Prompt Chips -->
+<div class="flex gap-2 overflow-x-auto pb-3 scrollbar-none" id="chipContainer">
+<button class="prompt-chip px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap transition-colors flex items-center gap-1.5" data-prompt="AI Study Planner that creates active recall schedules based on exam syllabi and student circadian rhythm" type="button">
+<span class="material-symbols-outlined text-primary text-sm">school</span>
+<span>AI Study Planner</span>
+</button>
+<button class="prompt-chip px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap transition-colors flex items-center gap-1.5" data-prompt="Personal Finance Hub with automated subscription scrubbing and real-time algorithmic savings allocation" type="button">
+<span class="material-symbols-outlined text-secondary text-sm">account_balance_wallet</span>
+<span>Personal Finance Hub</span>
+</button>
+<button class="prompt-chip px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap transition-colors flex items-center gap-1.5" data-prompt="Eco Lifestyle Tracker using barcode receipt scanning to calculate household carbon offsets" type="button">
+<span class="material-symbols-outlined text-tertiary text-sm">eco</span>
+<span>Eco Lifestyle Tracker</span>
+</button>
+</div>
+<!-- Interactive Input Form -->
+<div class="p-4 rounded-2xl bg-surface-container-low shadow-lg flex flex-col gap-3.5">
+<div class="relative">
+<textarea class="w-full p-3 rounded-xl bg-surface-container-lowest text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary resize-none" id="ideaInput" placeholder="E.g., A peer-to-peer equipment sharing network for neighborhood gardeners with smart locker access..." rows="3"></textarea>
+<div class="absolute bottom-2.5 right-2.5 font-label-mono text-[10px] text-outline">
+<span id="charCount">0</span>/240
+          </div>
+</div>
+<!-- Filters & Selectors -->
+<div class="grid grid-cols-2 gap-2.5">
+<div class="flex flex-col gap-1">
+<label class="font-label-mono text-[10px] text-on-surface-variant uppercase">Domain Category</label>
+<select class="w-full h-10 px-2.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md focus:outline-none">
+<option>Mobile App (Cross-Platform)</option>
+<option>Full-Stack Web SaaS</option>
+<option>AI Agent / Automation</option>
+<option>Hardware / IoT Interface</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-mono text-[10px] text-on-surface-variant uppercase">Experience Level</label>
+<select class="w-full h-10 px-2.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md focus:outline-none">
+<option>Solo Hacker (Fast MVP)</option>
+<option>Mid-Level Team (Scalable)</option>
+<option>Enterprise Architecture</option>
+</select>
+</div>
+</div>
+<!-- Action Button -->
+<button class="w-full h-12 rounded-xl font-label-lg text-label-lg font-semibold bg-gradient-to-r from-primary-container via-secondary-container to-tertiary-container text-inverse-surface shadow-md flex items-center justify-center gap-2 active:scale-[0.98] transition-all" id="generateBtn" type="button">
+<span class="material-symbols-outlined text-lg">auto_awesome</span>
+<span>Generate my blueprint ✦</span>
+</button>
+<!-- Dynamic Output Mock Panel (Revealed on click) -->
+<div class="hidden p-3.5 rounded-xl bg-surface-container-lowest transition-all duration-300" id="blueprintResult">
+<div class="flex items-center justify-between pb-2 mb-2 bg-surface-container-high/30 px-2 py-1 rounded">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-mono text-[11px] text-tertiary">SYNTHESIS COMPLETE</span>
+</div>
+<span class="font-label-mono text-[10px] text-outline">EST. TIME: 14 DAYS</span>
+</div>
+<h4 class="font-headline-sm text-sm text-on-surface font-semibold mb-1" id="blueprintTitle">Decentralized Sharing Grid</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-2" id="blueprintSummary">
+            Architecture recommends a progressive web app backed by Supabase Edge Functions with micro-escrow lock integration.
+          </p>
+<div class="flex gap-2">
+<span class="font-label-mono text-[10px] px-2 py-0.5 rounded bg-primary-container/20 text-primary">3 Milestones</span>
+<span class="font-label-mono text-[10px] px-2 py-0.5 rounded bg-secondary-container/20 text-secondary">9 Tasks</span>
+<span class="font-label-mono text-[10px] px-2 py-0.5 rounded bg-tertiary-container/20 text-tertiary">Stack Ready</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. PROJECT INSPIRATION GALLERY -->
+<section class="px-margin-mobile py-8 bg-surface-container-lowest/50">
+<div class="flex items-center justify-between mb-4">
+<div>
+<span class="font-label-mono text-label-mono text-secondary uppercase tracking-wider block">SHOWCASE</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Forged by creators</h2>
+</div>
+<span class="font-label-mono text-[11px] text-outline">2 PROJECTS</span>
+</div>
+<div class="flex flex-col gap-4">
+<!-- Inspiration Card 1: SkillSprint -->
+<div class="rounded-2xl bg-surface-container-low shadow-md overflow-hidden flex flex-col">
+<div class="relative w-full aspect-[16/9] bg-surface-container-lowest">
+<img alt="SkillSprint futuristic educational learning workspace with holographic cyan roadmaps, floating data curves, sleek dark developer desk with soft ambient violet illumination, ultra detailed 8k" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYw7LlS8u6htLm8fiVsS3IM1Px8ekgHwELGE9_MH2A0wFkgwm5JnXSpe5x9MkeJ5Rv38f_skxYrZvtLHEaeTu3chOSGmbRyg1DcLwreyuSL3qf7SgfV59xEyUIYsxSAJqrkQLr720S-zr11st-RcBNagVue1oIOMVWwbTWChAtR0_yQlIXeeVPH_HHcK3EHJfJUaed3pcRuEGEoEKUm3X17LlJaHsedls0_qLfuNW7vDdeyd77sn3P"/>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-md bg-surface-container-lowest/80 backdrop-blur-md font-label-mono text-[10px] text-primary">
+              EDTECH &amp; ACCELERATOR
+            </div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-base text-on-surface font-semibold">SkillSprint</h3>
+<span class="font-label-mono text-[11px] text-tertiary bg-tertiary/10 px-2 py-0.5 rounded">LAUNCHED</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              An intelligent learning dashboard with holographic cyan roadmaps and dynamic skill assessment curves that self-adapt to individual engineer velocity.
+            </p>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-1.5 text-outline font-label-md text-label-md">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>Built in 18 days</span>
+</div>
+<button class="font-label-md text-label-md text-primary font-medium hover:underline flex items-center gap-1" type="button">
+<span>View Blueprint</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Inspiration Card 2: EcoTrack -->
+<div class="rounded-2xl bg-surface-container-low shadow-md overflow-hidden flex flex-col">
+<div class="relative w-full aspect-[16/9] bg-surface-container-lowest">
+<img alt="EcoTrack sustainability tech concept, lush botanical biodome blended with glowing emerald and cyan digital telemetry graphs, sleek dark glass monitor, environmental monitoring dashboard" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFYIIlYs_TJo7LItPykFSNjDa8qd9m1yby7A6jfM5dMIyYFhNpw9w4hFdUf7_s7H3SvaKNd3mAsvK5fi9GcWfshHSmZ9HRYbUwoPspaQV72-btBbN04_gTXTTCwOMMfM1vnSMUk2-Mgh5GhQzTntKy32CoigsAEgfP1vD6bX1lNjSyH6tNwO75BXV2CYyPwbGQL9gXnIfdFOocrkQX-Jiy3xCfqrvmV-X7GFetoDH0yMCnHQ8-n5ha"/>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-md bg-surface-container-lowest/80 backdrop-blur-md font-label-mono text-[10px] text-secondary">
+              CLIMATE INTELLIGENCE
+            </div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-base text-on-surface font-semibold">EcoTrack</h3>
+<span class="font-label-mono text-[11px] text-secondary bg-secondary/10 px-2 py-0.5 rounded">SEED ROUND</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              A sustainability tech concept merging biodome telemetry with real-time carbon offsets and verified supply-chain environmental audits.
+            </p>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-1.5 text-outline font-label-md text-label-md">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>Built in 24 days</span>
+</div>
+<button class="font-label-md text-label-md text-secondary font-medium hover:underline flex items-center gap-1" type="button">
+<span>View Blueprint</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. FOOTER -->
+<footer class="px-margin-mobile pt-10 pb-8 bg-surface-container-lowest text-center flex flex-col items-center">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-primary mb-3">
+<span class="material-symbols-outlined text-2xl">auto_awesome</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-1">IdeaForge AI</h3>
+<p class="font-body-sm text-body-sm text-outline mb-6">Made for people who build.</p>
+<!-- Navigation Links Grid -->
+<div class="flex flex-wrap justify-center gap-x-6 gap-y-2.5 max-w-xs mb-8 font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-on-surface transition-colors" href="#">Explore</a>
+<a class="hover:text-on-surface transition-colors" href="#">Features</a>
+<a class="hover:text-on-surface transition-colors" href="#">How it works</a>
+<a class="hover:text-on-surface transition-colors" href="#">Sign in</a>
+<a class="hover:text-on-surface transition-colors" href="#">Privacy</a>
+<a class="hover:text-on-surface transition-colors" href="#">Terms</a>
+</div>
+<div class="font-label-mono text-[11px] text-outline/80">
+        © 2026 IdeaForge AI. All rights reserved.
+      </div>
+</footer>
+</div>
+</div>
+<script>
+  // Micro-Interactivity: Character Counter & Dynamic Idea Lab Preview
+  const ideaInput = document.getElementById('ideaInput');
+  const charCount = document.getElementById('charCount');
+  const generateBtn = document.getElementById('generateBtn');
+  const blueprintResult = document.getElementById('blueprintResult');
+  const blueprintTitle = document.getElementById('blueprintTitle');
+  const blueprintSummary = document.getElementById('blueprintSummary');
+  const chips = document.querySelectorAll('.prompt-chip');
+
+  if (ideaInput && charCount) {
+    ideaInput.addEventListener('input', (e) => {
+      charCount.textContent = e.target.value.length;
+    });
+  }
+
+  // Quick Chips Populate Textarea
+  chips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const prompt = chip.getAttribute('data-prompt');
+      if (ideaInput && prompt) {
+        ideaInput.value = prompt;
+        charCount.textContent = prompt.length;
+        ideaInput.focus();
+      }
+    });
+  });
+
+  // Blueprint Generation Trigger Simulation
+  if (generateBtn && blueprintResult) {
+    generateBtn.addEventListener('click', () => {
+      const val = ideaInput ? ideaInput.value.trim() : '';
+      generateBtn.classList.add('opacity-75');
+      generateBtn.innerHTML = '<span class="material-symbols-outlined text-lg animate-spin">refresh</span><span>Synthesizing...</span>';
+      
+      setTimeout(() => {
+        generateBtn.classList.remove('opacity-75');
+        generateBtn.innerHTML = '<span class="material-symbols-outlined text-lg">auto_awesome</span><span>Generate my blueprint ✦</span>';
+        
+        if (val.length > 0) {
+          if (blueprintTitle) blueprintTitle.textContent = val.slice(0, 32) + '...';
+          if (blueprintSummary) blueprintSummary.textContent = 'Custom specifications generated: mapped into 3 execution milestones, automated stack recommendations, and core delivery checklist.';
+        }
+        blueprintResult.classList.remove('hidden');
+        blueprintResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 700);
+    });
+  }
+
+  // Interactive Checkbox Counter Update
+  const todoList = document.getElementById('interactiveTodoList');
+  const taskCounter = document.getElementById('taskCounter');
+  if (todoList && taskCounter) {
+    const checkboxes = todoList.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach((cb) => {
+      cb.addEventListener('change', () => {
+        const total = checkboxes.length;
+        const checked = todoList.querySelectorAll('input[type="checkbox"]:checked').length;
+        taskCounter.textContent = `${checked} of ${total} Done`;
+        const labelText = cb.parentElement.querySelector('span');
+        if (labelText) {
+          if (cb.checked) {
+            labelText.classList.add('line-through', 'opacity-70');
+            labelText.classList.remove('font-medium');
+          } else {
+            labelText.classList.remove('line-through', 'opacity-70');
+            labelText.classList.add('font-medium');
+          }
+        }
+      });
+    });
+  }
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_-8px_32px_rgba(0,0,0,0.45)]" data-active-classes="text-primary font-label-lg"><div class="flex justify-around items-center h-20 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 min-w-[44px] min-h-[44px] transition-all text-primary font-label-lg" data-path="explore" href="#"><span class="material-symbols-outlined text-[24px]">explore</span><span class="font-label-md text-label-md">Explore</span></a><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 min-w-[44px] min-h-[44px] text-on-surface-variant transition-all hover:text-on-surface" data-path="forge" href="#"><span class="material-symbols-outlined text-[24px]">auto_awesome</span><span class="font-label-md text-label-md">Forge</span></a><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 min-w-[44px] min-h-[44px] text-on-surface-variant transition-all hover:text-on-surface" data-path="workspace" href="#"><span class="material-symbols-outlined text-[24px]">account_tree</span><span class="font-label-md text-label-md">Workspace</span></a><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 min-w-[44px] min-h-[44px] text-on-surface-variant transition-all hover:text-on-surface" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[24px]">dashboard</span><span class="font-label-md text-label-md">Dashboard</span></a></div></nav></body></html>
